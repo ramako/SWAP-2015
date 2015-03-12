@@ -1,0 +1,14 @@
+# Preguntas tipo test tema 2
+
+##¿Cual es la forma mas eficaz para mejorar la disponibilidad? 
+
+a) Asegurandose de que el software esta actualizado.
+
+b) Tener a una persona 24 horas monitorizando los sistemas.
+
+c) Con el uso de subsistemas redundantes.
+
+d) Usando un servidor de produccion y otro de desarrollo.
+
+Respuesta correcta: c , la b también funcionaria pero no seria eficaz, la d no tiene mucho que ver pues está relacionada con el
+desarrollo y testeo de nuevas funcionalidades, la a no es suficiente para mejorar la disponibilidad.
