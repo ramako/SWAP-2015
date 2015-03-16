@@ -4,8 +4,10 @@ Aquí podemos ver las dos máquinas y como se copia el fichero tar mediante ssh 
 
 ![Imgur](http://i.imgur.com/vkfu9j3.png)
 
+Usamos rsync para copiar carpetas:
+
 ![Imgur](http://i.imgur.com/77lRuJV.png)
 
-Copiamos las claves y comprobamos que podemos conectar:
+Copiamos las claves y comprobamos que podemos conectar sin password:
 
 ![Imgur](http://i.imgur.com/yr3NxQW.png)
