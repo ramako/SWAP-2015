@@ -8,6 +8,6 @@ Usamos rsync para copiar carpetas:
 
 ![Imgur](http://i.imgur.com/77lRuJV.png)
 
-Copiamos las claves y comprobamos que podemos conectar sin password:
+Generamos, copiamos las claves y comprobamos que podemos conectar sin password:
 
 ![Imgur](http://i.imgur.com/yr3NxQW.png)
