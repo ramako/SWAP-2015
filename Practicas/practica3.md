@@ -18,5 +18,21 @@ Al hacer dos curl a la ip de la maquina balanceadora de carga, vemos como altern
 
 He añadido weight=2 en la primera máquina, y de cada 3 conexiones 2 van a la primera máquina y 1a la segunda tanto desde el anfitrion como desde curl.
 
+Paramos nginx con `sudo service nginx stop `
+
+Instalamos haproxy con `sudo apt-get install haproxy` .
+
+Editamos su fichero de configuración:
+
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/ubuntu%20server%20haproxy%20config.png)
+
+Ejecutamos el demonio con:
+
+`sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg`
+
+Y comprobamos mediante curl que las páginas cambian.
+
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/ubuntu%20server%20haproxy.png)
+
 
 
