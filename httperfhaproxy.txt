@@ -1,0 +1,46 @@
+httperf --timeout=5 --client=0/1 --server=192.168.1.102 --port=80 --uri=/ --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=27000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 27000 requests 27000 replies 27000 test-duration 179.995 s
+
+Connection rate: 150.0 conn/s (6.7 ms/conn, <=4 concurrent connections)
+Connection time [ms]: min 0.7 avg 2.5 max 23.1 median 2.5 stddev 1.2
+Connection time [ms]: connect 0.7
+Connection length [replies/conn]: 1.000
+
+Request rate: 150.0 req/s (6.7 ms/req)
+Request size [B]: 66.0
+
+Reply rate [replies/s]: min 149.8 avg 150.0 max 150.2 stddev 0.1 (36 samples)
+Reply time [ms]: response 1.6 transfer 0.2
+Reply size [B]: header 254.0 content 11513.0 footer 0.0 (total 11767.0)
+Reply status: 1xx=0 2xx=27000 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 66.23 system 111.00 (user 36.8% system 61.7% total 98.5%)
+Net I/O: 1733.5 KB/s (14.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+httperf --timeout=5 --client=0/1 --server=192.168.1.102 --port=80 --uri=/ --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=27000 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 27000 requests 27000 replies 27000 test-duration 179.997 s
+
+Connection rate: 150.0 conn/s (6.7 ms/conn, <=6 concurrent connections)
+Connection time [ms]: min 0.7 avg 2.9 max 38.1 median 2.5 stddev 1.4
+Connection time [ms]: connect 0.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 150.0 req/s (6.7 ms/req)
+Request size [B]: 66.0
+
+Reply rate [replies/s]: min 149.8 avg 150.0 max 150.2 stddev 0.1 (36 samples)
+Reply time [ms]: response 1.9 transfer 0.2
+Reply size [B]: header 254.0 content 11513.0 footer 0.0 (total 11767.0)
+Reply status: 1xx=0 2xx=27000 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 65.36 system 111.22 (user 36.3% system 61.8% total 98.1%)
+Net I/O: 1733.5 KB/s (14.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0

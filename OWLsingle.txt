@@ -1,0 +1,29 @@
+Total TPS: 1553.93
+Avg. Response time:  0.006 sec.
+Max Response time:   3.017 sec
+Total Requests:   96617
+Total Errors:         0
+
+Total TPS: 1527.30
+Avg. Response time:  0.006 sec.
+Max Response time:   0.061 sec
+Total Requests:   86758
+Total Errors:         0
+
+Total TPS: 1684.65
+Avg. Response time:  0.006 sec.
+Max Response time:   0.040 sec
+Total Requests:  140208
+Total Errors:         0
+
+Total TPS: 1520.42
+Avg. Response time:  0.007 sec.
+Max Response time:   0.080 sec
+Total Requests:  122734
+Total Errors:         0
+
+Total TPS: 1530.17
+Avg. Response time:  0.006 sec.
+Max Response time:   0.053 sec
+Total Requests:   86392
+Total Errors:         0
