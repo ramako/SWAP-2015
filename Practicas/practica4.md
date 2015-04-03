@@ -42,6 +42,10 @@ Aquí están las tablas con los resultados (la media de 5 ejecuciones).
 | Requests per second  | 2277.62    |
 | Time per request     | 43.91 ms   |
 
+Gráficas
+
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/AB.jpg)
+
 
 Estos resultados se antojan extraños debido a que los balanceadores deberían de 
 dar mas rendimiento, sin embargo, han tenido mas peticiones fallidas que sin 
@@ -73,7 +77,7 @@ Aqui las tablas del programa httperf:
 | Request rate         | 150        |
 | Errors total         | 0          |
 
-
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/httperf.jpg)
 
 Aquí las tablas de OWL
 
@@ -95,4 +99,4 @@ Aquí las tablas de OWL
 | Avg response time    | 0,031      |
 
 
-
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/OWL.jpg)
