@@ -29,7 +29,7 @@ Aquí están las tablas con los resultados (la media de 5 ejecuciones).
 
 | Haproxy balanceador  | Mediciones |
 |----------------------|------------|
-| Tiempo medio de test | 8.84476 ms |
+| Tiempo medio de test | 7.333 ms   |
 | Failed request       | 5000       |
 | Requests per second  | 1385.27    |
 | Time per request     | 72.26ms    |
@@ -48,3 +48,51 @@ dar mas rendimiento, sin embargo, han tenido mas peticiones fallidas que sin
 balanceador. Esto puede ser debido a la configuración del balanceador, una 
 protección contra ataques DDoS, el servidor sobre el que funciona es menos 
 potente que los servidores finales y no puede gestionar los balanceos, etc...
+
+Aqui las tablas del programa httperf:
+
+| Nginx balanceador    | Mediciones |
+|----------------------|------------|
+| Total connections    | 27000      |
+| Replies              | 27000      |
+| Request rate         | 150        |
+| Errors total         | 0          |
+
+
+| Haproxy balanceador  | Mediciones |
+|----------------------|------------|
+| Total connections    | 27000      |
+| Replies              | 27000      |
+| Request rate         | 150        |
+| Errors total         | 0          |
+
+| Sin balanceador      | Mediciones |
+|----------------------|------------|
+| Total connections    | 27000      |
+| Replies              | 27000      |
+| Request rate         | 150        |
+| Errors total         | 0          |
+
+
+
+Aquí las tablas de OWL
+
+| Nginx balanceador    | Mediciones |
+|----------------------|------------|
+| Total TPS            | 999,2      |
+| Avg response time    | 0,01       |
+
+
+| Haproxy balanceador  | Mediciones |
+|----------------------|------------|
+| Total TPS            | 1104,91    |
+| Avg response time    | 0,0092     |
+
+
+| Sin balanceador      | Mediciones |
+|----------------------|------------|
+| Total TPS            | 1483,29    |
+| Avg response time    | 0,031      |
+
+
+
