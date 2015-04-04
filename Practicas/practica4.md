@@ -77,7 +77,11 @@ Aqui las tablas del programa httperf:
 | Request rate         | 150        |
 | Errors total         | 0          |
 
+Gráficas:
+
 ![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/httperf.jpg)
+
+Los resultados, sorprendentemente, han sido los mismos.
 
 Aquí las tablas de OWL
 
@@ -100,3 +104,6 @@ Aquí las tablas de OWL
 
 
 ![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/OWL.jpg)
+
+Aquí se puede ver diferencia en el tiempo media de respuesta, siendo mas bajo en el caso de los balanceadores.
+La media del número de peticiones completadas para la ejecución completa( Total TPS) es claramente mayor si no se usa balanceador. 
