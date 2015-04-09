@@ -21,7 +21,7 @@ La máquina virtual que sirve como balanceo de carga está configurada para que
 sea vista desde el anfitrión-
 Para Apache AB he utilizado 10000 conexiones y 1000 concurrentes.
 
-Aquí están las tablas con las medias de los  resultados.
+Aquí están las tablas con las medias de los  resultados, para la desviación estándar he utilizado [esta calculadora](http://www.alcula.com/es/calculadoras/estadistica/desviacion-estandar/).
 
 
 | Nginx balanceador    | Mediciones | Desviacion estándar |
