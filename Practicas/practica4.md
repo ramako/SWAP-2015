@@ -24,12 +24,12 @@ Para Apache AB he utilizado 10000 conexiones y 1000 concurrentes.
 Aquí están las tablas con las medias de los  resultados.
 
 
-| Nginx balanceador    | Mediciones |
-|----------------------|------------|
-| Tiempo medio de test | 8.84476 ms |
-| Failed request       | 3999       |
-| Requests per second  | 1130.974   |
-| Time per request     | 88.4 ms    |
+| Nginx balanceador    | Mediciones | Desviacion estándar |
+|----------------------|------------|---------------------|
+| Tiempo medio de test | 8.84476 ms |   0.168             |
+| Failed request       | 3999       |   1490.56           |
+| Requests per second  | 1130.974   |   21.50             |
+| Time per request     | 88.4 ms    |   1.68              |
 
 
 | Haproxy balanceador  | Mediciones |
