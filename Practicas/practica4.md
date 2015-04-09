@@ -32,12 +32,12 @@ Aquí están las tablas con las medias de los  resultados, para la desviación e
 | Time per request     | 88.4 ms    |   1.68              |
 
 
-| Haproxy balanceador  | Mediciones |
-|----------------------|------------|
-| Tiempo medio de test | 7.333 ms   |
-| Failed request       | 5000       |
-| Requests per second  | 1385.27    |
-| Time per request     | 72.26ms    |
+| Haproxy balanceador  | Mediciones |Desviacion estándar |
+|----------------------|------------|---------------------|
+| Tiempo medio de test | 7.333 ms   |               |
+| Failed request       | 5000       |             |
+| Requests per second  | 1385.27    |             |
+| Time per request     | 72.26ms    |              |
 
 
 | Sin balanceador      | Mediciones |
@@ -60,27 +60,27 @@ potente que los servidores finales y no puede gestionar los balanceos, etc...
 
 Aqui las tablas del programa httperf:
 
-| Nginx balanceador    | Mediciones |
-|----------------------|------------|
-| Total connections    | 27000      |
-| Replies              | 27000      |
-| Request rate         | 150        |
-| Errors total         | 0          |
+| Nginx balanceador    | Mediciones |Desviacion estándar |
+|----------------------|------------|--------------------|
+| Total connections    | 27000      | 0 |
+| Replies              | 27000      | 0 |
+| Request rate         | 150        | 0 |
+| Errors total         | 0          | 0 |
 
 
-| Haproxy balanceador  | Mediciones |
-|----------------------|------------|
-| Total connections    | 27000      |
-| Replies              | 27000      |
-| Request rate         | 150        |
-| Errors total         | 0          |
+| Haproxy balanceador  | Mediciones |Desviacion estándar |
+|----------------------|------------|--------------------|
+| Total connections    | 27000      | 0 |
+| Replies              | 27000      | 0 |
+| Request rate         | 150        | 0 |
+| Errors total         | 0          | 0 |
 
-| Sin balanceador      | Mediciones |
-|----------------------|------------|
-| Total connections    | 27000      |
-| Replies              | 27000      |
-| Request rate         | 150        |
-| Errors total         | 0          |
+| Sin balanceador      | Mediciones |Desviacion estándar |
+|----------------------|------------|--------------------|
+| Total connections    | 27000      |0 |
+| Replies              | 27000      |0 |
+| Request rate         | 150        |0 |
+| Errors total         | 0          |0 |
 
 Gráficas:
 
