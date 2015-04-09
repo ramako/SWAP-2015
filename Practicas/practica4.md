@@ -34,10 +34,10 @@ Aquí están las tablas con las medias de los  resultados, para la desviación e
 
 | Haproxy balanceador  | Mediciones |Desviacion estándar |
 |----------------------|------------|---------------------|
-| Tiempo medio de test | 7.333 ms   |               |
-| Failed request       | 5000       |             |
-| Requests per second  | 1385.27    |             |
-| Time per request     | 72.26ms    |              |
+| Tiempo medio de test | 7.333 ms   |    0.264             |
+| Failed request       | 5000       |      0       |
+| Requests per second  | 1385.27    |    52.822         |
+| Time per request     | 72.26ms    |   2.64           |
 
 
 | Sin balanceador      | Mediciones |
