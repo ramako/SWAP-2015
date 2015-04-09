@@ -2,9 +2,14 @@
 Con la granja web creada y los balanceadores de carga configurados de la 
 práctica anterior, he utilizado las siguientes herramientas para el 
 Benchmarking:
+
 1. Apache AB
-2. httperf
+( `ab -n 1000 -c 10 ip-maquina/test.html `)
+2. httperf (`httperf --client=0/1 --server=192.168.56.10x -- port=80 --uri=/index.html --rate=150  --num-conn=27000 --num-call=1 --timeout=5 `)
 3. Open Web Loader
+(`openload http://192.168.56.10x/index.html 10` )
+
+En httperf y OWL sustituyo la x final por la ip de la máquina o balanceador.
 
 Para cada una de estas herramientas, las he ejecutado contra
 
@@ -16,7 +21,7 @@ La máquina virtual que sirve como balanceo de carga está configurada para que
 sea vista desde el anfitrión-
 Para Apache AB he utilizado 10000 conexiones y 1000 concurrentes.
 
-Aquí están las tablas con los resultados (la media de 5 ejecuciones).
+Aquí están las tablas con las medias de los  resultados.
 
 
 | Nginx balanceador    | Mediciones |
