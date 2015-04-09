@@ -40,12 +40,12 @@ Aquí están las tablas con las medias de los  resultados, para la desviación e
 | Time per request     | 72.26ms    |   2.64           |
 
 
-| Sin balanceador      | Mediciones |
-|----------------------|------------|
-| Tiempo medio de test | 4.39 ms    |
-| Failed request       | 0          |
-| Requests per second  | 2277.62    |
-| Time per request     | 43.91 ms   |
+| Sin balanceador      | Mediciones |Desviación estándar |
+|----------------------|------------|--------------------|
+| Tiempo medio de test | 4.39 ms    | 0.053 |
+| Failed request       | 0          | 0 |
+| Requests per second  | 2277.62    |27.298 |
+| Time per request     | 43.91 ms   | 0.52 |
 
 Gráficas
 
