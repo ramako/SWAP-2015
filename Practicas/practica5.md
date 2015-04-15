@@ -26,4 +26,6 @@ Vemos que se ha creado y pasamos los datos contenidos en el fichero de la base d
 
 ![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/mysql4.png)
 
+Y comprobamos que se ha copiado correctamente:
 
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/mysql5.png)
