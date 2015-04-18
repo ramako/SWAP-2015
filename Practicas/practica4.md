@@ -90,22 +90,22 @@ Los resultados, sorprendentemente, han sido los mismos.
 
 Aquí las tablas de OWL
 
-| Nginx balanceador    | Mediciones |
-|----------------------|------------|
-| Total TPS            | 999,2      |
-| Avg response time    | 0,01       |
+| Nginx balanceador    | Mediciones | Desviación estándar|
+|----------------------|------------|--------------------|
+| Total TPS            | 999,2      | 62.83 |
+| Avg response time    | 0,01       | 0.0007      |
 
 
-| Haproxy balanceador  | Mediciones |
-|----------------------|------------|
-| Total TPS            | 1104,91    |
-| Avg response time    | 0,0092     |
+| Haproxy balanceador  | Mediciones | Desviación estándar |
+|----------------------|------------|---------------------|
+| Total TPS            | 1104,91    | 42.90 |
+| Avg response time    | 0,0092     | 0.0004 |
 
 
-| Sin balanceador      | Mediciones |
-|----------------------|------------|
-| Total TPS            | 1483,29    |
-| Avg response time    | 0,031      |
+| Sin balanceador      | Mediciones | Desviación estándar |
+|----------------------|------------|---------------------|
+| Total TPS            | 1483,29    |69.003 |
+| Avg response time    | 0,031      |0.0004 |
 
 
 ![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/OWL.jpg)

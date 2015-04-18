@@ -13,7 +13,7 @@ y ejecutamos el comando para crear la copia de seguridad:
 `mysqldump contactos -u root -p > /home/contactos.sql `
 
 Entramos en mysql y desbloqueamos las tablas con
-`UNLOCK TABLES;
+`UNLOCK TABLES;`
 
 Copiamos el archivo desde la maquina en la que estara el backup mediante scp:
 
