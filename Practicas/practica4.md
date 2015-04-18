@@ -23,6 +23,7 @@ Para Apache AB he utilizado 10000 conexiones y 1000 concurrentes.
 
 Aquí están las tablas con las medias de los  resultados, para la desviación estándar he utilizado [esta calculadora](http://www.alcula.com/es/calculadoras/estadistica/desviacion-estandar/).
 
+Apache AB:
 
 | Nginx balanceador    | Mediciones | Desviacion estándar |
 |----------------------|------------|---------------------|
@@ -86,19 +87,19 @@ Gráficas:
 
 ![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/httperf.jpg)
 
-Los resultados, sorprendentemente, han sido los mismos.
+Los resultados, sorprendentemente, han sido los mismos. Quizás sea porque las máquinas no han sido estresadas a tope con este benchmark.
 
 Aquí las tablas de OWL
 
 | Nginx balanceador    | Mediciones | Desviación estándar|
 |----------------------|------------|--------------------|
-| Total TPS            | 999,2      | 62.83 |
-| Avg response time    | 0,01       | 0.0007      |
+| Total TPS            | 999,2      | 62.83  |
+| Avg response time    | 0,01       | 0.0007 |
 
 
 | Haproxy balanceador  | Mediciones | Desviación estándar |
 |----------------------|------------|---------------------|
-| Total TPS            | 1104,91    | 42.90 |
+| Total TPS            | 1104,91    | 42.90  |
 | Avg response time    | 0,0092     | 0.0004 |
 
 
@@ -111,4 +112,5 @@ Aquí las tablas de OWL
 ![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/OWL.jpg)
 
 Aquí se puede ver diferencia en el tiempo media de respuesta, siendo mas bajo en el caso de los balanceadores.
-La media del número de peticiones completadas para la ejecución completa( Total TPS) es claramente mayor si no se usa balanceador. 
+La media del número de peticiones completadas para la ejecución completa( Total TPS) es claramente mayor si no se usa balanceador, sin embargo el tiempo de respuesta medio es mucho más alto
+que usando balanceadores.
