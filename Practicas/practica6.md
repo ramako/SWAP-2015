@@ -26,3 +26,15 @@ Comprobamos que al iniciarse esta montado:
 ![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/bootmount.png)
 
 En la penúltima línea podemos ver que se ha montado automaticamente durante el arranque y no hemos necesitado introducir ningún comando.
+
+Simulamos el fallo del disco duro:
+
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/RAIDfail.png)
+
+Retiramos el disco duro, comprobamos que podemos acceder a /datos y verificamos que el directorio /datos está montado en el RAID y que de verdad accedemos a traves de él:
+
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/RAIDacceso.png)
+
+Volvemos a conectar el disco duro y comprobamos que esté todo correcto:
+
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/RAIDanadido.png)
