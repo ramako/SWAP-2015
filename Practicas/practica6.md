@@ -29,7 +29,7 @@ En la penúltima línea podemos ver que se ha montado automaticamente durante el
 
 Simulamos el fallo del disco duro:
 
-![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/RAIDfail.png)
+![](https://github.com/ramako/SWAP-2015/blob/master/Practicas/RAIDFail.png)
 
 Retiramos el disco duro, comprobamos que podemos acceder a /datos y verificamos que el directorio /datos está montado en el RAID y que de verdad accedemos a traves de él:
 
